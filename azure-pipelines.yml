@@ -23,7 +23,7 @@ steps:
       curl --help
       echo "Hello World"
       node --version
-      node hello.js
+      node index.js
       
     displayName: 'Download index.js from GitHub'
     
