@@ -10,7 +10,8 @@ pool:
   vmImage: windows-latest
   #env:
     #PAYLOAD: ${{toJSON(github.event.client_payload)}}
-
+  variables:
+    PAYLOAD: client_payload
 steps:
   - task: PowerShell@2
     
